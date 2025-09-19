@@ -11,18 +11,45 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="flex justify-between items-center px-[230px] pt-12">
-        <div>
-            <h1 class="text-[45px] font-bold">Ma<span class="text-[#FD6E0A]">r</span>y</h1>
+    <section class="min-h-screen relative overflow-hidden mb-[130px] bg-[#FFF8F3]">
+        <div class="absolute bottom-0 right-0 z-0">
+            <img src="images/header_bg.png" alt="Background" class="w-[800px] h-[470px]">
         </div>
-        <nav>
-            <ul class="flex gap-4 items-center text-[#474747] text-[18px] gap-12 font-semibold">
-                <li>Portfolio</li>
-                <li>Blog</li>
-                <li><button class="btn bg-[#FD6E0A] text-white text-[20px] font-bold px-10 py-6">Hire Me</button></li>
-            </ul>
-        </nav>
-    </header>
+        <div class="absolute z-10 flex items-center justify-center p-[38px_20px_25px_30px] h-full">
+            <img src="images/developer.png" alt="Developer" class="h-full w-auto object-contain">
+        </div>
+        <header class="flex justify-between items-center px-[230px] pt-12">
+            <nav class="flex items-center w-full justify-between mb-[40px]">
+                <h1 class="text-[45px] font-bold">Ma<span class="text-[#FD6E0A]">r</span>y</h1>
+                <ul class="flex gap-12 items-center text-[#474747] text-[18px] font-semibold">
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><button class="btn bg-[#FD6E0A] text-white text-[20px] font-bold px-10 py-8">Hire Me</button></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="flex justify-between items-center pl-[230px] pr-[100px] pt-16 pb-20">
+            <div class="flex-1 max-w-[600px]">
+                <h2 class="text-[45px] font-semibold text-[#474747] mb-1">Hi, I am</h2>
+                <h1 class="text-[85px] font-bold text-[#181818]">Mary Hardy</h1>
+                <p class="text-[18px] text-[#757575] mt-6 mb-8 max-w-[535px]">
+                    Shot what able cold new see hold. Friendly as an betrayed formerly he. Morning because as to society behaved moments.
+                </p>
+                <div class="flex gap-6">
+                    <button class="btn bg-[#FD6E0A] text-white text-[20px] font-bold px-5 py-8 flex items-center gap-2">
+                        <img src="images/download.svg" alt=""> Download CV
+                    </button>
+                    <button class="btn btn-outline text-[#FD6E0A] border-[#FD6E0A] text-[20px] font-bold px-8 py-8 flex items-center gap-2">
+                        <img src="images/phone.svg" alt="">Contact
+                    </button>
+                </div>
+            </div>
+            <div class="flex-1"></div>
+        </div>
+        <div class="absolute bottom-0 right-[100px]">
+            <img src="images/hardy.png" alt="Mary Hardy" class="w-[520px] h-auto">
+        </div>
+    </section>
     <main></main>
     <footer></footer>
 </body>
